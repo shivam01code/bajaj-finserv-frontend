@@ -39,7 +39,7 @@ export default function Home() {
       const dataArray = parsedData.data;
       if (!Array.isArray(dataArray)) throw new Error("Invalid data format");
 
-      const response = await fetch("https://bajaj-finserv-backend-t0kn.onrender.com/bfhl", {
+      const response = await fetch("https://bajaj-finserv-backend-r8qm.onrender.com/bfhl", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
