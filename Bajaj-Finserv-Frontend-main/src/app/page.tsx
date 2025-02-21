@@ -44,10 +44,10 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           data: dataArray,
-          full_name: "rupesh_kumar",
-          dob: "21012004",
-          email: "cgcrupesh@gmail.com",
-          roll_number: "2236977",
+          full_name: "shivam_kumar_choudhary",
+          dob: "05072003",
+          email: "choudharyshiv420@gmail.com",
+          roll_number: "2237013",
         }),
       });
 
